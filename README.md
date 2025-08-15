@@ -1,16 +1,62 @@
-# codebase_assignment
+# ✅ Flutter Todo App
 
-A new Flutter project.
+A clean, modern, and efficient **Todo Application** built with Flutter.  
+Users can register, log in, and manage their todos with real-time updates using **Firebase**, and persistent local storage using **Hive** for caching.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **Authentication**
+    - User registration & login using **Firebase Authentication**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📝 **Todo Management**
+    - Add, update, delete todos
+    - Todos are synced in real-time using **Firebase Cloud Firestore**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 📦 **Offline Caching**
+    - Caching and local storage with **Hive** for offline access and faster performance
+
+- ☁️ **Cloud Storage**
+    - Firebase Cloud Firestore is used to persist todos securely
+
+- 📱 **Responsive UI**
+    - Built with Flutter's modern UI components for clean and intuitive user experience
+
+---
+
+## 📸 Screenshots
+
+| Login                                | Register                                   | Create Todo                                 |
+|--------------------------------------|--------------------------------------------|---------------------------------------------|
+| ![Login](screenshots/login_page.png) | ![Register](screenshots/register_page.png) | ![Create Todo](screenshots/create_todo.png) |
+
+| Todo Board                                | Update Todo                                 | Delete Todo                             |
+|-------------------------------------------|---------------------------------------------|-----------------------------------------|
+| ![Todo Board](screenshots/todo_board.png) | ![Update Todo](screenshots/update_todo.png) | ![Screen6](screenshots/delete_todo.png) |
+
+---
+
+## 🎥 Todo Preview
+
+![Todo Preview](screenshots/todo_process_flow.gif)
+
+---
+
+## 🧰 Tech Stack
+
+- **Flutter** – UI Development
+- **Firebase Auth** – User Authentication
+- **Firebase Cloud Firestore** – Data storage
+- **Firebase Cloud Storage** – For Todo Storage
+- **Hive** – Local database & caching
+- **Cubit** – (Optional) State Management 
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/shubhamgayakwad6334/codebase_assignmet.git
+   cd codebase_assignmet
