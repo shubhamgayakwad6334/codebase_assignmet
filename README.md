@@ -47,10 +47,9 @@ Users can register, log in, and manage their todos with real-time updates using 
 
 - **Flutter** – UI Development
 - **Firebase Auth** – User Authentication
-- **Firebase Cloud Firestore** – Data storage
-- **Firebase Cloud Storage** – For Todo Storage
+- **Firebase Cloud Storage** – Todo Storage
 - **Hive** – Local database & caching
-- **Cubit** – (Optional) State Management 
+- **Cubit** – State Management for handling states 
 
 ---
 
